@@ -25,7 +25,7 @@
 }
 
 .banner-image{
-    height: 80%;
+    height: 90%;
     max-width: 100%;
 }
 
@@ -56,4 +56,34 @@
     background: #E55473;
     border: none;
     padding: 20px 40px;
+}
+
+
+/* Featured Section */
+
+.min-width-sections{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.featured-items-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-items{
+    width: 31%;
+}
+
+.featured-image-container{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.featured-image-1{
+    
 }
