@@ -72,7 +72,7 @@ nav{
 }
 
 .nav-logo>img{
-    width: 180px;
+    width: 170px;
 }
 
 .nav-items{
@@ -96,7 +96,7 @@ a{
 .min-width-sections{
     width: 80%;
     margin: 0px auto;
-    padding: 80px 0px;
+    padding: 100px 0;
 }
 
 .featured-container{
@@ -129,6 +129,7 @@ a{
 
 .featured-items{
     width: 31%;
+    height: 340px;
 }
 
 .featured-image-container{
@@ -257,6 +258,12 @@ input{
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Footer Section */
+
+.footer-logo{
+    width: 200px;
 }
 
 footer{
