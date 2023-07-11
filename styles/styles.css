@@ -42,9 +42,9 @@
 
 .banner-description{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 30px;
     margin-bottom: 26px;
 }
 
@@ -66,9 +66,27 @@
     margin: 100px auto;
 }
 
+.featured-container{
+    text-align: center;
+}
+
+.sections-titles{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sections-descriptions{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .featured-items-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 48px;
 }
 
 .featured-items{
@@ -77,13 +95,30 @@
 
 .featured-image-container{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
 }
 
-.featured-image-1{
-    
+.fimg1{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.fimg2{
+    background: rgba(5, 151, 160, 0.15);
+    align-items: center;
+}
+
+.fimg3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-items-names{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
 }
