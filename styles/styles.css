@@ -185,3 +185,39 @@ span{
     width: 100%;
     height: auto;
 }
+
+/* Latest Deals section */
+
+
+.latest-deals-section-container{
+    text-align: center;
+    height: 380px;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest-deals-text-container{
+    width: 100%;
+}
+
+.latest-deals-form{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+input{
+    border: none;
+    border-radius: 8px;
+    width: 45%;
+    padding: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
